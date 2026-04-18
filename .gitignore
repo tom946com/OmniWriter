@@ -9,6 +9,3 @@ wheels/
 # Virtual environments
 .venv
 
-# Project folders
-test/
-data/

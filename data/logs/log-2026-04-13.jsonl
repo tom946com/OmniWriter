@@ -1,0 +1,3 @@
+{"level": "ERROR", "message": "Failed to export span batch code: None, reason: HTTPSConnectionPool(host='cloud.langfuse.com', port=443): Read timed out. (read timeout=5.0)", "function": "export", "line": 198}
+{"level": "ERROR", "message": "Failed to export span batch code: None, reason: HTTPSConnectionPool(host='cloud.langfuse.com', port=443): Read timed out. (read timeout=5.0)", "function": "export", "line": 198}
+{"level": "ERROR", "message": "Failed to export span batch code: None, reason: HTTPSConnectionPool(host='cloud.langfuse.com', port=443): Read timed out. (read timeout=5.0)", "function": "export", "line": 198}

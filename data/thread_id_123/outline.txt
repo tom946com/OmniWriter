@@ -1,0 +1,85 @@
+outline_content={
+    "global_constraints": {
+      "target_audience": "互联网中层管理",
+      "tone": "犀利、反直觉、带点黑色幽默"
+    },
+    "outline": [
+      {
+        "section_id": "chap_01",
+        "theme_anchor": "B 端落地惨状：从狂热到裸泳",
+        "section_role": "pain_point",
+        "display_type": "sub_heading",
+        "custom_heading": "别装了，你们的 AI 客服就是个智障",
+        "execution_directive": "用嘲讽但客观的口吻，先抛出一个极具画面感的翻车现场，然后指出这不是个案，而是普遍规律。",
+        "word_budget": 800,
+        "can_include_material": [
+          "AI 客服劝客户把存款买成理财",
+          "B 端 AI 项目落地满意度不到 20%"
+        ],
+        "micro_outline": [
+          {
+            "paragraph_intent": "用一个极其荒诞的真实案例开篇，建立画面感",
+            "format_hint": "纯文本，短句，单句成段"
+          },
+          {
+            "paragraph_intent": "指出这不是 bug，而是整个行业的通病",
+            "format_hint": "使用加粗强调数据"
+          },
+          {
+            "paragraph_intent": "一句话收尾，引出下一章的原因分析",
+            "format_hint": "独立成段，作为过渡句"
+          }
+        ]
+      },
+      {
+        "section_id": "chap_02",
+        "theme_anchor": "深层原因剖析：错位的评估体系",
+        "section_role": "analysis",
+        "display_type": "sub_heading",
+        "custom_heading": "不是技术不行，而是你们用错了尺子",
+        "execution_directive": "从技术成熟度、评估标准、期望管理三个维度分析落地困难的根本原因。",
+        "word_budget": 1000,
+        "can_include_material": [
+          "技术成熟度曲线与实际应用场景的错配",
+          "企业用 ToC 产品的标准评估 ToB 系统"
+        ],
+        "micro_outline": [
+          {
+            "paragraph_intent": "指出企业对 AI 技术的期望与实际能力的差距",
+            "format_hint": "使用对比手法"
+          },
+          {
+            "paragraph_intent": "分析评估体系错位的三个具体表现",
+            "format_hint": "分点列举，每点一个小标题"
+          },
+          {
+            "paragraph_intent": "过渡到解决方案章节",
+            "format_hint": "设问句结尾"
+          }
+        ]
+      },
+      {
+        "section_id": "chap_03",
+        "theme_anchor": "破局之道：正确的打开方式",
+        "section_role": "solution",
+        "display_type": "main_heading",
+        "custom_heading": "三步走，让 AI 真正为你打工",
+        "execution_directive": "提供具体可操作的实施步骤，每步都有明确的方法和注意事项。",
+        "word_budget": 1200,
+        "micro_outline": [
+          {
+            "paragraph_intent": "第一步：明确场景，找到真正的痛点",
+            "format_hint": "给出具体场景示例"
+          },
+          {
+            "paragraph_intent": "第二步：小步快跑，快速验证价值",
+            "format_hint": "强调迭代和验证的重要性"
+          },
+          {
+            "paragraph_intent": "第三步：建立正确的评估体系",
+            "format_hint": "提供评估指标建议"
+          }
+        ]
+      }
+    ]
+  }
