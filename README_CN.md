@@ -3,7 +3,7 @@
 <p align="center">
    Languages: 
    简体中文
-   <a href="./docs/README.md">English.</a>
+   <a href="./README.md">English.</a>
 </p>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
