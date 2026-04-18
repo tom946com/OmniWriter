@@ -8,6 +8,10 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
+
+## 📖 Overview
+**OmniWriter** is a production-grade multi-agent content creation system built on LangGraph and DeepAgents. With intelligent collaboration and precise retrieval, it delivers stable, high-quality and credible long-form content, while supporting flexible control and iterative optimization throughout the creation process. Extremely versatile, it readily handles copywriting, blogs and research reports; you only need to fine-tune prompts to extend it to literature reviews and novel writing, making it an efficient, all-round solution for automated multi-scenario content generation.
+
 ## 📸 Core Features
 
 - 🧠 **Multi-agent Collaboration**: Orchestrate workflows with LangGraph, handle post-processing via DeepAgents, featuring clear division of labor and high scalability
