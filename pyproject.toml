@@ -1,0 +1,31 @@
+[project]
+name = "omniwriter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-openai>=0.3.0",
+    "tavily-python>=0.7.23",
+    "pyyaml>=6.0",
+    "langgraph>=1.1.6",
+    "structlog>=25.5.0",
+    "langchain-text-splitters>=1.1.1",
+    "numpy>=2.2.6",
+    "overrides>=7.7.0",
+    "pybase64>=1.4.3",
+    "jsonschema>=4.26.0",
+    "pydantic-settings>=2.13.1",
+    "chromadb>=1.5.6",
+    "deepagents>=0.5.1",
+    "pillow>=12.2.0",
+    "langfuse>=4.2.0",
+    "elasticsearch>=9.3.0",
+    "uuid>=1.30",
+    "langsmith[openai-agents]>=0.7.25",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

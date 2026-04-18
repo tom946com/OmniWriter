@@ -1,0 +1,5 @@
+{
+  "graphs": {
+    "search_user": "./test/search_user_agent.py:create_search_user_graph"
+  }
+}
