@@ -1,10 +1,15 @@
-# 📝 OmniWriter
+<h1 align="center">OmniWriter: 基于LangGraph + DeepAgents的生产级多智能体文章生成系统</h1>
 
 <p align="center">
+   Languages: 
+   简体中文
+   <a href="./docs/README.md">English.</a>
+</p>
 
-## <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans+SC&weight=600&size=32&duration=3000&pause=3000&color=2196F3&center=true&vCenter=true&width=650&height=70&lines= AI多智能体文章生成系统;OmniWriter" alt="OmniWriter Logo"/> <br/> <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.12+-blue.svg" alt="Python Version"/></a> <a href="#"><img src="../../../TyporaNoteBook/photo_typora/License-MIT-green.svg+xml" alt="License"/></a> <a href="#"><img src="https://img.shields.io/badge/LangGraph-1.1.6-orange.svg" alt="LangGraph Version"/></a> </p>
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
 
-##  <p align="center">基于 LangGraph + DeepAgents 构建的多智能体全流程文章生成系统，解决大模型写作的幻觉、检索低效、上下文溢出等核心问题</p>
+## 📸 核心特性
 
 - 🧠 **多智能体协作**：基于 LangGraph 编排工作流，DeepAgents 负责后期处理，分工明确且可扩展
 - 🎯 **幻觉抑制**：结构化抽取检索词、精准提示约束、Rerank 检索过滤、被动 + 主动检索多层保障
