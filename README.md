@@ -2,21 +2,9 @@
 
 <p align="center">
 
-  <img src="D:/study_notebook/TyporaNoteBook/photo_typora/omniwriter-logo-17764844957059" alt="OmniWriter Logo" width="200"/> <!-- 占位符：替换为项目实际Logo链接 -->
+## <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans+SC&weight=600&size=32&duration=3000&pause=3000&color=2196F3&center=true&vCenter=true&width=650&height=70&lines= AI多智能体文章生成系统;OmniWriter" alt="OmniWriter Logo"/> <br/> <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.12+-blue.svg" alt="Python Version"/></a> <a href="#"><img src="../../../TyporaNoteBook/photo_typora/License-MIT-green.svg+xml" alt="License"/></a> <a href="#"><img src="https://img.shields.io/badge/LangGraph-1.1.6-orange.svg" alt="LangGraph Version"/></a> </p>
 
-  <br/>
-
-  <a href="https://python.org"><img src="D:/study_notebook/TyporaNoteBook/photo_typora/Python-3.12+-blue.svg+xml" alt="Python Version"/></a>
-
-  <a href="#"><img src="D:/study_notebook/TyporaNoteBook/photo_typora/License-MIT-green.svg+xml" alt="License"/></a> <!-- 占位符：替换为实际许可证类型 -->
-
-  <a href="#"><img src="D:/study_notebook/TyporaNoteBook/photo_typora/LangGraph-Latest-orange.svg+xml" alt="LangGraph Version"/></a> <!-- 占位符：补充具体版本 -->
-
-</p>
-
-<p align="center">基于 LangGraph + DeepAgents 构建的多智能体全流程文章生成系统，解决大模型写作的幻觉、检索低效、上下文溢出等核心问题</p>
-
-## ✨ 核心特性
+##  <p align="center">基于 LangGraph + DeepAgents 构建的多智能体全流程文章生成系统，解决大模型写作的幻觉、检索低效、上下文溢出等核心问题</p>
 
 - 🧠 **多智能体协作**：基于 LangGraph 编排工作流，DeepAgents 负责后期处理，分工明确且可扩展
 - 🎯 **幻觉抑制**：结构化抽取检索词、精准提示约束、Rerank 检索过滤、被动 + 主动检索多层保障
@@ -28,14 +16,6 @@
 
 ## 🛠️ 技术栈
 
-表格
-
-
-
-
-
-
-
 |    类别    |                     技术 / 框架                     |
 | :--------: | :-------------------------------------------------: |
 |  编程语言  |                    Python 3.12+                     |
@@ -46,73 +26,6 @@
 |  网络请求  |                  requests、aiohttp                  |
 |  依赖管理  |                         uv                          |
 |  日志系统  |            Python logging（自定义配置）             |
-
-## 🚀 快速开始
-
-### 环境准备
-
-确保本地安装 Python 3.12+ 版本，推荐使用虚拟环境隔离依赖。
-
-### 安装依赖
-
-本项目使用 `uv` 作为轻量、跨平台的依赖管理工具：
-
-1. 安装 uv
-
-   ```
-   # Windows (PowerShell)
-   irm https://astral.sh/uv/install.ps1 | iex
-   
-   # macOS / Linux
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-   ```
-
-   
-
-2. 安装项目依赖
-
-   ```
-   uv sync
-   ```
-
-   
-
-### 配置环境变量
-
-复制示例配置文件并填充关键信息（API Key、数据库地址等）：
-
-```
-cp .env.example .env  # 占位符：确保项目根目录有.env.example模板文件，补充需要配置的环境变量（如大模型API Key、ES/ChromaDB地址、Travily API Key等）
-```
-
-编辑 `.env` 文件，填写以下核心配置（示例）：
-
-```
-# 大模型配置
-LLM_API_KEY=your-api-key
-LLM_BASE_URL=your-base-url
-
-# 数据库配置
-CHROMADB_PATH=./data/chromadb
-ES_HOST=127.0.0.1
-ES_PORT=9200
-
-# 检索配置
-TRAVILY_API_KEY=your-travily-api-key
-
-# 日志配置
-LOG_LEVEL=INFO
-LOG_PATH=./data/log
-```
-
-### 运行项目
-
-```
-# 基础运行命令
-python main.py --topic "2026年AI行业发展现状" --demand "科技风格，5000字，包含市场趋势和伦理分析"
-
-# 占位符：补充更多运行参数说明（如指定用户ID、自定义输出路径等）
-```
 
 ## 📊 核心工作流
 
@@ -228,6 +141,80 @@ OmniWriter/
 └── test/                              # 单元测试目录
 ```
 
+## 🚀 快速开始
+
+### 环境准备
+
+确保本地安装 Python 3.12+ 版本，推荐使用虚拟环境隔离依赖。
+
+### 安装依赖
+
+本项目使用 `uv` 作为轻量、跨平台的依赖管理工具：
+
+1. 安装 uv
+
+   ```
+   # Windows (PowerShell)
+   irm https://astral.sh/uv/install.ps1 | iex
+   
+   # macOS / Linux
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+   
+
+2. 安装项目依赖
+
+   ```
+   uv sync
+   ```
+
+   
+
+### 配置环境变量
+
+复制示例配置文件并填充关键信息（API Key、数据库地址等）：
+
+```
+cp .env.example .env  # 占位符：确保项目根目录有.env.example模板文件，补充需要配置的环境变量（如大模型API Key、ES/ChromaDB地址、Travily API Key等）
+```
+
+编辑 `.env` 文件，填写以下核心配置（示例）：
+
+```
+#modelscope平台
+LLM_BASE_URL=https://api.example.com/v1
+LLM_BASE_API_KEY=your-api-key-here
+
+#嵌入模型
+EMBEDDING_BASE_URL=https://api.example.com/v1
+EMBEDDING_BASE_API_KEY=your-embedding-api-key-here
+
+#图片模型
+IMAGE_BASE_URL=https://api.example.com/
+IMAGE_BASE_API_KEY=your-image-api-key-here
+
+#搜索
+TAVILY_API_KEY=your-tavily-api-key-here
+
+# Elasticsearch Settings
+ES_USERNAME=elastic
+ES_PASSWORD=your-es-password-here
+
+LANGSMITH_TRACING = "true"
+LANGSMITH_API_KEY = "your-langsmith-api-key-here" 
+LANGSMITH_PROJECT = "OmniWriter"
+```
+
+### 运行项目
+
+```
+# 基础运行命令
+python main.py --topic "文章主题" --demand "用户的额外需求，如（文章风格，字数等）"
+```
+
+
+
 ## 🤝 贡献指南
 
 我们欢迎各种形式的贡献，包括但不限于：
@@ -235,8 +222,6 @@ OmniWriter/
 1. 提交issue报告bug或建议新功能
 2. 提交pull request改进代码
 3. 完善文档
-
-请阅读 [CONTRIBUTING.md](https://github.com/Tswoen/Paper-Agent/blob/main/docs/CONTRIBUTING.md) 了解更多细节。
 
 ## 📄 许可证
 
@@ -247,7 +232,7 @@ OmniWriter/
 如有任何问题或建议，请通过以下方式反馈：
 
 - **GitHub Issues**：请在项目仓库中提交Issue，这是最推荐的问题反馈方式
-- 项目主页：https://github.com/Tswoen/paper-agent
+- 项目主页：https://github.com/tom946com/OmniWriter
 
 ------
 
