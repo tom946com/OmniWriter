@@ -9,6 +9,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
 
+## 📖 简介
+**OmniWriter**是基于LangGraph与DeepAgents打造的生产级多智能体内容创作系统，依托智能协作与精准检索能力，稳定输出高质量、高可信度的长文本内容，创作全程可灵活调控、迭代优化。系统适用场景极广，可轻松完成文案、博客、研究报告等创作，仅需微调提示词，就能拓展到论文综述、小说写作，是多场景自动化内容生成的高效实用方案。
 ## 📸 核心特性
 
 - 🧠 **多智能体协作**：基于 LangGraph 编排工作流，DeepAgents 负责后期处理，分工明确且可扩展
