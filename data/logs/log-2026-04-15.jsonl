@@ -1,1 +1,0 @@
-{"level": "ERROR", "message": "[\u001b[31m\u001b[1merror    \u001b[0m] \u001b[1m\u4e3b\u63a7\u5236\u5668\u8fd0\u884c\u5931\u8d25: 'tuple' object has no attribute 'type'\u001b[0m \u001b[36mfunc_name\u001b[0m=\u001b[35mrun_controller_agent\u001b[0m", "function": "run_controller_agent", "line": 185}
